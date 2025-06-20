@@ -56,7 +56,7 @@ This project includes:
    - Place the rules in `/var/ossec/etc/rules/`
    - Restart the Wazuh manager with: `systemctl restart wazuh-manager`
 
-3. Add in ossec.conf on your OpnSense new rows
+3. Add in ossec.conf on your OPNsense new rows
 
 ```
 <localfile>
