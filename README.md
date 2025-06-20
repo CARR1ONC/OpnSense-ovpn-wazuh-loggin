@@ -21,11 +21,12 @@
 2. Импортируйте декодер и правила в Wazuh.
 3. Перезапустите wazuh-manager на сервере после добавления. На Opnsense перезапускать ничего не нужно, только добавить в ossec.conf строчку куда сохраняются логи подключений openvpn
 
+```
 <localfile>
   <log_format>syslog</log_format>
   <location>/var/log/название-логфайла-исходя-из-скриптов-логгирования.log</location>
 </localfile>
-
+```
 
 
 
@@ -57,10 +58,12 @@ This project includes:
 
 3. Add in ossec.conf on your OpnSense new rows
 
+```
 <localfile>
   <log_format>syslog</log_format>
-  <location>/var/log/name-of-logfile-in-bash-script.log</location>
+  <location>/var/log/название-логфайла-исходя-из-скриптов-логгирования.log</location>
 </localfile>
+```
 
 
 ---
