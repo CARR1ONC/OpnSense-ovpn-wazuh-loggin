@@ -61,7 +61,7 @@ This project includes:
 ```
 <localfile>
   <log_format>syslog</log_format>
-  <location>/var/log/название-логфайла-исходя-из-скриптов-логгирования.log</location>
+  <location>/var/log/your_file_name.log</location>
 </localfile>
 ```
 
